@@ -21,16 +21,16 @@ for ( int i = 0; i < (r-1); i++)
                 int reserv = clas1[j];
                 clas1[j+1] = clas1[j];
                 clas[j] = reserv;
-            };
+            }
 
         }
     }
-for (int i =0; i < r; i++)
+for (int i = 0; i < r; i++)
 {
     if (clas1[i] == petia) 
     {
-        Console.WriteLine($"петя будет {i} в строю");
+        Console.WriteLine($"петя будет {i+1} в строю");
     }
-        Console.Write($"{clas1[i]}, ");
+     Console.Write($"{clas1[i]}, ");
     
 }
