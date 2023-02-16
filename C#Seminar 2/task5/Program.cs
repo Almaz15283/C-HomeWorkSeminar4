@@ -22,8 +22,8 @@ for ( int i = 0; i < r; i++)
             if (clas1[j] < clas1[j+1]) 
             {
                 int reserv = clas1[j];
-                clas1[j+1] = clas1[j];
-                clas1[j] = reserv;
+                clas1[j] = clas1[j+1];
+                clas1[j+1] = reserv;
             }
 
         }
