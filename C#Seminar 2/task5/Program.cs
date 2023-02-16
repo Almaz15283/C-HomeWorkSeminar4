@@ -11,12 +11,15 @@ for (int i = 0; i < n; i++)
         clas[i] = new Random().Next(100,190);
         clas1[i] = clas[i];
         clas1[r-1] = petia;
+       /* Console.Write($"{clas[i]}, ");
+        Console.WriteLine($"{clas1[i]}, ");
+        Console.Write(clas1[r-1]);*/
     }
-for ( int i = 0; i < (r-1); i++)
+for ( int i = 0; i < r; i++)
     {   
         for ( int j = 0; j < (n - i); j++)
         {
-            if (clas1[j] > clas1[j+1]) 
+            if (clas1[j] < clas1[j+1]) 
             {
                 int reserv = clas1[j];
                 clas1[j+1] = clas1[j];
