@@ -33,7 +33,7 @@ for (int i = 0; i < r; i++)
     if (clas1[i] == petia) 
     {
         Console.WriteLine($"петя будет {i+1} в строю");
+        return;
     }
-     Console.Write($"{clas1[i]}, ");
     
 }
