@@ -20,7 +20,7 @@ for ( int i = 0; i < (r-1); i++)
             {
                 int reserv = clas1[j];
                 clas1[j+1] = clas1[j];
-                clas[j] = reserv;
+                clas1[j] = reserv;
             }
 
         }
